@@ -9,12 +9,14 @@ class Main {
     int suma=a+b;
     System.out.println(a+"+"+b+"="+suma);
 
-    bool x=false;
+    boolean x=false;
     if(suma==4) x=true;
     else
       x=false;
     if(x)
-      
+      System.out.println("Nawet dobrze liczy");
+    else
+      System.out.println("Coś nie pykło");
     
     
   }
