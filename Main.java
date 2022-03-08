@@ -1,11 +1,16 @@
+import java.util.Scanner;
 class Main {
   public static void main(String[] args) 
   {
-    String imie="Piotr";
+    Scanner myObj = new Scanner(System.in);
+    System.out.println("Jak się nazywasz?");
+    String imie=myObj.nextLine();
     System.out.println("Witaj "+imie+"!");
     System.out.println("Test math:");
-    int a=2;
-    int b=2;
+    System.out.println("Podaj a:");
+    int a=myObj.nextInt();
+    System.out.println("Podaj b:");
+    int b=myObj.nextInt();
     int suma=a+b;
     System.out.println(a+"+"+b+"="+suma);
 
